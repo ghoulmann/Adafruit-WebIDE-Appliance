@@ -22,7 +22,7 @@ Installs packages from TurnKey Linux Core 12.0 manifest (in some cases, the clos
 
 To Use:
 1. Login as root.
-2. git cone; apt-get install git if necessary.
+2. git cone; apt-get install git. git clone git://github.com/ghoulmann/Adafruit-WebIDE-Appliance.git
 3. Run install_tklpatch.sh script. This script compiles TKLPatch, Turnkey Linux's SDK. At the end of the script, the patch process is launched.
 4. If you've compiled tklpatch and want to apply the patch manually, here's the command: tklpatch-apply / webide.tar.gz
 5. Wait. Quite a while. The output is verbose so you'll know what's keeping you.
