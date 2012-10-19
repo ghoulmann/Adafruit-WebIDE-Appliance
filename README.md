@@ -1,4 +1,9 @@
+Notes: install script needs to be run to compile tklpatch; it's intended to then launch the patch process. Until tonight, that part is broken. After running the install script, manually apply the patch:
+1. cd to location of webide.tar.gz
+2. enter: tklpatch-apply / webide.tar.gz
+
 Raspian remixed to match Turnkey Linux Core 12.0. GUI packages extirpated (prolly still room to shrink).
+
 
 Add to the server Core Adafruit's WebIDE and you have a server appliance fashioned after Turnkey Linux 12.0.
 
